@@ -1,21 +1,22 @@
 
 # Judol LLM - Deteksi Komentar Judi Online dengan Large Language Model (LLM)
 
-Judol LLM adalah proyek riset yang bertujuan untuk mendeteksi komentar yang mengandung unsur judi online pada media sosial menggunakan pendekatan Large Language Model (LLM) dan model transformer modern seperti GPT, BERT, RoBERTa, DeBERTa, dan Gemma.
+Judol LLM adalah proyek riset yang bertujuan untuk mendeteksi komentar yang mengandung unsur judi online pada media sosial menggunakan pendekatan Large Language Model (LLM) dan model transformer modern seperti GPT2
+
+Pada code diatas kita menggunakan gpt2 dan dataset judol (custom dataset) untuk training / fine tuning gpt2
 
 
 ## Fitur Utama
 - **Preprocessing Data Komentar**: Membersihkan dan menyiapkan data komentar untuk pelatihan model.
-- **Training Model Klasifikasi LLM**: Mendukung berbagai arsitektur transformer (GPT, BERT, RoBERTa, DeBERTa, Gemma).
+- **Training Model Klasifikasi LLM**: Mendukung berbagai arsitektur transformer (GPT2)
 - **Evaluasi & Visualisasi**: Menyediakan metrik akurasi, loss, dan visualisasi hasil training per epoch.
 - **Prediksi Komentar Baru**: Model siap digunakan untuk mendeteksi komentar baru secara otomatis.
 - **Confusion Matrix**: Analisis performa model pada data training dan testing.
 
 
 ## Struktur Folder
-- `judol_training_gpt.ipynb` / `judol_training_gpt_2.ipynb` : Notebook training GPT dan model transformer lain.
+- `judol_training_gpt1.ipynb` (1 epoch) / `judol_training_gpt_2.ipynb` (2 epoch) : Notebook training GPT dan model transformer lain.
 - `dataset.csv` : Dataset utama komentar.
-- `save_model2/`, `save_model3/` : Folder penyimpanan model hasil training (tidak di-track git).
 
 
 ## Cara Penggunaan
