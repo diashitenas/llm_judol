@@ -31,6 +31,16 @@ Pada code diatas kita menggunakan gpt2 dan dataset judol (custom dataset) untuk 
    - Gunakan fungsi `predict_comment()` pada notebook untuk mendeteksi komentar baru.
 
 
+## Pengujian Model
+
+Untuk menguji model klasifikasi komentar, Anda perlu:
+
+1. Unduh model yang sudah dilatih dari [tautan Google Drive ini](https://drive.google.com/drive/folders/13D-t1PM9yJQVqQr0hCNMiy0DparzRGXo?usp=sharing)
+2. Ekstrak file yang diunduh ke dalam folder bernama `saved_model2` di direktori utama proyek
+3. Gunakan kode berikut untuk melakukan prediksi:
+
+jalankan cell paling akhir
+
 ## Contoh Prediksi
 ```python
 comment = "Main di BIBIT288 seru abis! Bonusnya mantap!"
